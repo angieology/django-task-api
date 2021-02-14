@@ -169,4 +169,4 @@ Once a few rows are populated, check pgadmin for updated rows:
 - [ ] the graphql part
 
 # Tutorial reference
-Project is based on this series, refer to [this](https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO) if you get stuck.
+Project is based on this series, refer to [this](https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO) for clarification.
