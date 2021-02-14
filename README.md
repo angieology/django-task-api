@@ -66,7 +66,7 @@ In the dashboard, right click on left panel to create:
 If you get lost check [this tutorial video here](https://youtu.be/3HPq12w-dww) that this project is based off.
 
 It should look like this:
-<p>![alt text](/images/setup_tables.png)</p>
+<p>![alt text](images/setup_tables.png)</p>
 
 
 ### 2. Environment setup
@@ -133,10 +133,10 @@ You can view the site on [localhost:8000](localhost:8000)
 
 The REST API has an admin panel which you can log in with the username and password created in the `createsuperuser` step. Here you have admin priviledges to view and modify all tables.
 
-<p>![alt text](/images/admin_panel.png)</p>
+<p>![alt text](images/admin_panel.png)</p>
 
 Under the `/api` path there is a list of available urls for all CRUD operations, try it out.
-<p>![alt text](/images/api_overview.png)</p>
+<p>![alt text](images/api_overview.png)</p>
 
 ### Create a task
 Use format:
@@ -146,23 +146,23 @@ Use format:
     "completed": Boolean
 }
 ```
-<p>![alt text](/images/task_create.png)</p>
+<p>![alt text](images/task_create.png)</p>
 
 
 ### View all tasks
 
-<p>![alt text](/images/task_list.png)</p>
+<p>![alt text](images/task_list.png)</p>
 
 There is something called a `signal` in Django, which is a way to send out events. Here it is used like middleware for your model changes, which are automatically triggered methods for before or after you save a task (model).
 The signal used here is a 'task meta' model that is automatically created for every task created. (see `/api/models.py`)
 A more realistic use case would be to automatically create a 'User Profile' whenever a 'User' is created.
 
 log of task-meta being created whenenver a task is added in the view:
-<p>![alt text](/images/signal.png)</p>
+<p>![alt text](images/signal.png)</p>
 
 Once a few rows are populated, check pgadmin for updated rows:
-<p>![alt text](/images/pgadmin_task.png)</p>
-<p>![alt text](/images/pgadmin_task_meta.png)</p>
+<p>![alt text](images/pgadmin_task.png)</p>
+<p>![alt text](images/pgadmin_task_meta.png)</p>
 
 # TODO
 - [ ] convert the 'view' urls to REST-only
