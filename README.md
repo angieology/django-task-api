@@ -167,7 +167,6 @@ Once a few rows are populated, check pgadmin for updated rows:
 # TODO
 - [ ] convert the 'view' urls to REST-only
 - [ ] investigate SQL or noSQL
-- [ ] *use the template instead*
 
 # Tutorial reference
 Project is based on this series, refer to [this](https://www.youtube.com/playlist?list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO) for clarification.
